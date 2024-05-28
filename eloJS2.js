@@ -16,3 +16,11 @@ function square (x) {
     return x * x;
 }
 
+
+
+function smallestNumber(num1, num2) {
+    return Math.min (num1, num2);
+  }
+  
+  let result = smallestNumber(50, 60);
+  console.log("The smallest number is " + result)
