@@ -5,3 +5,14 @@ for (let i = 1; i <= totalLines; i++) {
   let hashes = "#".repeat(i);
   console.log(spaces + hashes);
 }
+
+const makeNoise = function() {
+    console.log("Pling!!");
+};
+
+makeNoise();
+
+function square (x) { 
+    return x * x;
+}
+
